@@ -4,6 +4,8 @@ A portfolio implementation of an accounts-receivable follow-up workflow using Py
 
 > **Portfolio demo:** This repository is independently recreated with synthetic data. It is not the source code, a deployment, or a representation of any employer's internal systems. It does not send email or connect to Outlook, Power BI, SharePoint or Copilot Studio.
 
+![Workflow diagram](docs/workflow.svg)
+
 ## Workflow
 
 1. Load invoice records from CSV.
