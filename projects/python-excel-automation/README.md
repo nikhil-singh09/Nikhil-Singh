@@ -4,6 +4,8 @@ A reusable Excel automation utility that consolidates invoice rows from multiple
 
 > Uses synthetic sample data. It does not connect to SharePoint, Outlook or any employer environment.
 
+![Workflow diagram](docs/workflow.svg)
+
 ## Features
 
 - Reads all worksheets from an input workbook.
