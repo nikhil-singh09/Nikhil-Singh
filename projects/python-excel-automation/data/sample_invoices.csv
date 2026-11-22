@@ -1,0 +1,5 @@
+client_name,invoice_no,outstanding_amount,business_unit
+Northwind Demo Ltd,INV-001,185000,North
+Northwind Demo Ltd,INV-002,95000,North
+Contoso Sample Pvt Ltd,INV-101,275000,South
+Fabrikam Training Co,INV-201,45000,West
