@@ -4,6 +4,8 @@ A privacy-conscious prototype for extracting review fields from plain-text contr
 
 > **Important:** This repository is a standalone portfolio prototype using fictional sample clauses. It is not legal advice, does not determine enforceability, and is not the implementation or source code of any employer/client system. The current code uses transparent rule-based extraction; it does **not** call an LLM, OCR service, vector database or Azure service.
 
+![Workflow diagram](docs/workflow.svg)
+
 ## What it does
 
 - Reads text files from `data/contracts/`.
