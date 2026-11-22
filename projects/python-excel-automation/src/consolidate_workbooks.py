@@ -9,7 +9,10 @@ REQUIRED = {"client_name", "invoice_no", "outstanding_amount"}
 
 
 def consolidate(source: Path, destination: Path) -> None:
-    sheets = pd.read_excel(source, sheet_name=None)
+    if source.suffix.lower() == ".csv":
+        sheets = {"CSV_Input": pd.read_csv(source)}
+    else:
+        sheets = pd.read_excel(source, sheet_name=None)
     if not sheets:
         raise ValueError("The workbook contains no worksheets.")
 
