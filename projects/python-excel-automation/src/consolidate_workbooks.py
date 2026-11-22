@@ -38,15 +38,20 @@ def consolidate(source: Path, destination: Path) -> None:
     )
 
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with pd.ExcelWriter(destination, engine="openpyxl") as writer:
-        detail.to_excel(writer, sheet_name="Invoice_Detail", index=False)
-        summary.to_excel(writer, sheet_name="Client_Summary", index=False)
-        for worksheet in writer.sheets.values():
-            worksheet.freeze_panes = "A2"
-            worksheet.auto_filter.ref = worksheet.dimensions
-            for column_cells in worksheet.columns:
-                width = min(max(len(str(cell.value or "")) for cell in column_cells) + 2, 36)
-                worksheet.column_dimensions[column_cells[0].column_letter].width = width
+    try:
+        with pd.ExcelWriter(destination, engine="openpyxl") as writer:
+            detail.to_excel(writer, sheet_name="Invoice_Detail", index=False)
+            summary.to_excel(writer, sheet_name="Client_Summary", index=False)
+            for worksheet in writer.sheets.values():
+                worksheet.freeze_panes = "A2"
+                worksheet.auto_filter.ref = worksheet.dimensions
+                for column_cells in worksheet.columns:
+                    width = min(max(len(str(cell.value or "")) for cell in column_cells) + 2, 36)
+                    worksheet.column_dimensions[column_cells[0].column_letter].width = width
+    except ImportError:
+        detail.to_csv(destination.with_name("invoice_detail.csv"), index=False)
+        summary.to_csv(destination.with_name("client_summary.csv"), index=False)
+        print("openpyxl is not installed; CSV detail and summary files were created instead.")
 
 
 def main() -> None:

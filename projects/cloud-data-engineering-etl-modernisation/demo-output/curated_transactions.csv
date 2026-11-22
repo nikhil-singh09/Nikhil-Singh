@@ -1,0 +1,4 @@
+record_id,event_date,amount,region
+TX-001,2026-01-05,1250.50,North
+TX-002,2026-01-05,980.00,South
+TX-003,2026-01-06,2400.00,West

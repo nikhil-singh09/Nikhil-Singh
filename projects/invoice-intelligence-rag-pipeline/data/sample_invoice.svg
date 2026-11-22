@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1050" viewBox="0 0 900 1050">
+<rect width="900" height="1050" fill="#ffffff"/>
+<rect x="45" y="45" width="810" height="960" fill="#ffffff" stroke="#1c2740" stroke-width="3"/>
+<text x="90" y="130" font-family="Arial" font-size="42" font-weight="bold" fill="#18243a">NORTHWIND DEMO SUPPLIES</text>
+<text x="90" y="180" font-family="Arial" font-size="25" fill="#18243a">FICTIONAL TRAINING INVOICE</text>
+<line x1="90" y1="215" x2="810" y2="215" stroke="#35c7b0" stroke-width="5"/>
+<text x="90" y="285" font-family="Arial" font-size="26" fill="#18243a">Invoice Number: DEMO-OCR-1001</text>
+<text x="90" y="335" font-family="Arial" font-size="26" fill="#18243a">Invoice Date: 2026-05-14</text>
+<text x="90" y="385" font-family="Arial" font-size="26" fill="#18243a">Due Date: 2026-06-13</text>
+<text x="90" y="455" font-family="Arial" font-size="26" fill="#18243a">Payment Terms: Net 30</text>
+<line x1="90" y1="500" x2="810" y2="500" stroke="#c7d2df" stroke-width="2"/>
+<text x="90" y="565" font-family="Arial" font-size="26" fill="#18243a">Description</text>
+<text x="675" y="565" font-family="Arial" font-size="26" fill="#18243a">Amount</text>
+<text x="90" y="625" font-family="Arial" font-size="24" fill="#18243a">Office equipment — sample data only</text>
+<text x="675" y="625" font-family="Arial" font-size="24" fill="#18243a">1250.50</text>
+<line x1="90" y1="665" x2="810" y2="665" stroke="#c7d2df" stroke-width="2"/>
+<text x="610" y="735" font-family="Arial" font-size="30" font-weight="bold" fill="#18243a">Total: 1250.50 USD</text>
+<text x="90" y="900" font-family="Arial" font-size="22" fill="#5a6a7f">No real business, person, bank account or transaction is represented.</text>
+</svg>

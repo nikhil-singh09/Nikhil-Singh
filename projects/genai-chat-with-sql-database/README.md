@@ -17,3 +17,7 @@ For interactive mode, run python src/chat_sql.py without the option.
 - Executes only predefined SELECT queries.
 - Rejects unsupported prompts rather than constructing arbitrary SQL.
 - No network, credentials or external database.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: sample-run.txt. Run commands from this project folder to regenerate the artifacts.

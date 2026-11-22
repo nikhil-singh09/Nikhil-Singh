@@ -1,0 +1,3 @@
+client_ref,client_name,recipient,subject,draft_body,invoice_count,total_outstanding,review_status
+CL-2001,Northwind Demo Ltd,finance@northwind.example,Payment follow-up | CL-2001,"Hello Northwind Demo Ltd, our sample worklist shows 2 eligible invoice(s) totalling 300000.00: INV-201, INV-202. Please review against the source system.",2,300000.00,DRAFT — HUMAN REVIEW REQUIRED
+CL-2002,Contoso Sample Pvt Ltd,ap@contoso.example,Payment follow-up | CL-2002,"Hello Contoso Sample Pvt Ltd, our sample worklist shows 1 eligible invoice(s) totalling 242000.00: INV-301. Please review against the source system.",1,242000.00,DRAFT — HUMAN REVIEW REQUIRED

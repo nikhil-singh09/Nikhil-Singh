@@ -21,7 +21,7 @@ python -m venv .venv
 # Windows: .venv\\Scripts\\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python src/consolidate_workbooks.py --input data/sample_invoices.csv --output outputs/consolidated_report.xlsx
+python src/consolidate_workbooks.py --input data/sample_invoices.csv --output demo-output/consolidated_report.xlsx
 ```
 
 ## Input schema
@@ -36,3 +36,9 @@ Each worksheet (or the input CSV) should contain `client_name`, `invoice_no` and
 ## Safety
 
 The script never emails files or modifies the source workbook. Review output totals before using the report for business decisions.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: invoice_detail.csv, client_summary.csv (CSV fallback; Excel is generated when openpyxl is installed). Run commands from this project folder to regenerate the artifacts.
+
+The checked-in demo output contains CSV previews because `openpyxl` was unavailable when it was generated. After installing `requirements.txt`, the command creates the formatted Excel workbook.

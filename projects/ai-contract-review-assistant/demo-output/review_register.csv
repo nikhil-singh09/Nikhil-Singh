@@ -1,0 +1,7 @@
+source_file,field,value,status,evidence
+sample_services_agreement.txt,effective_date,"""January 1, 2026""",found_rule_match,"Effective Date: January 1, 2026"
+sample_services_agreement.txt,termination,"""Either party may terminate this Agreement on thirty days written notice.""",found_rule_match,Either party may terminate this Agreement on thirty days written notice.
+sample_services_agreement.txt,governing_law,"""The laws of the fictional Example State""",found_rule_match,Governing Law: The laws of the fictional Example State
+sample_services_agreement.txt,liability_cap,"""Each party's aggregate liability under this Agreement will not exceed the fees paid during the prior twelve months.""",found_rule_match,Each party's aggregate liability under this Agreement will not exceed the fees paid during the prior twelve months.
+sample_services_agreement.txt,confidentiality,"""Each party must protect the other party's confidential information using reasonable safeguards.""",found_rule_match,Each party must protect the other party's confidential information using reasonable safeguards.
+sample_services_agreement.txt,parties,"{""customer"": ""Northwind Demo Ltd"", ""provider"": ""Contoso Sample Pvt Ltd""}",found_rule_match,entered into by Northwind Demo Ltd (Customer) and Contoso Sample Pvt Ltd (Provider)

@@ -1,0 +1,26 @@
+[
+  {
+    "partner": "Partner North",
+    "periods": 2,
+    "revenue": "823000.00",
+    "target": "810000.00",
+    "attainment_pct": "101.6",
+    "headcount": 8
+  },
+  {
+    "partner": "Partner South",
+    "periods": 2,
+    "revenue": "777000.00",
+    "target": "790000.00",
+    "attainment_pct": "98.4",
+    "headcount": 7
+  },
+  {
+    "partner": "Partner West",
+    "periods": 2,
+    "revenue": "605000.00",
+    "target": "610000.00",
+    "attainment_pct": "99.2",
+    "headcount": 5
+  }
+]

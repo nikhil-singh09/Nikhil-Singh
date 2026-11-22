@@ -22,7 +22,7 @@ python -m venv .venv
 # Windows: .venv\\Scripts\\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python src/build_worklist.py --input data/sample_invoices.csv --output outputs
+python src/build_worklist.py --input data/sample_invoices.csv --output demo-output
 ```
 
 The sample dataset is fictional. Output files are created locally under `outputs/`.
@@ -46,3 +46,9 @@ Edit the constants at the top of `src/build_worklist.py` to change the overdue-d
 ## Next extensions
 
 A production-grade implementation would add authenticated data access, role-based permissions, audit history, approved email integration, idempotency, retry handling and human approval gates. Those integrations are not implemented here.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: eligible_invoices.csv, client_summary.csv, email_previews.txt. Run commands from this project folder to regenerate the artifacts.
+
+If `openpyxl` is installed, the run also creates Excel workbooks. Without it, the CSV tables are still produced for review.

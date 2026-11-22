@@ -7,7 +7,7 @@ A local-only batch example showing schema checks, type normalization, rejects an
 ![Workflow diagram](docs/workflow.svg)
 
 ## Run
-python src/curate_transactions.py --input data/transactions.csv --output outputs
+python src/curate_transactions.py --input data/transactions.csv --output demo-output
 
 ## Outputs
 - curated_transactions.csv: valid, normalized rows
@@ -15,3 +15,7 @@ python src/curate_transactions.py --input data/transactions.csv --output outputs
 - rejected_rows.csv: rows held with a reason
 
 The examples are fictional. The architecture concepts map to orchestration, transformation and quality gates; no cloud deployment is included.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: curated_transactions.csv, daily_region_summary.csv, rejected_rows.csv. Run commands from this project folder to regenerate the artifacts.

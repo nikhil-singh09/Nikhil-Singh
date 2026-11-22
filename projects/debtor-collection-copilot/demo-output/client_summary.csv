@@ -1,0 +1,3 @@
+client_ref,client_name,client_email,invoice_count,total_outstanding,invoice_list
+CL-1002,Contoso Sample Pvt Ltd,ap@example.org,1,275000,INV-101
+CL-1001,Northwind Demo Ltd,finance@example.com,1,185000,INV-001

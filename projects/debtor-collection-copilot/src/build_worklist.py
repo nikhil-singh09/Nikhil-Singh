@@ -45,8 +45,14 @@ def build_worklist(source: Path, output_dir: Path) -> tuple[pd.DataFrame, pd.Dat
     )
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    eligible.to_excel(output_dir / "eligible_invoices.xlsx", index=False)
-    summary.to_excel(output_dir / "client_summary.xlsx", index=False)
+    # CSV previews remain available when the optional Excel writer is absent.
+    eligible.to_csv(output_dir / "eligible_invoices.csv", index=False)
+    summary.to_csv(output_dir / "client_summary.csv", index=False)
+    try:
+        eligible.to_excel(output_dir / "eligible_invoices.xlsx", index=False)
+        summary.to_excel(output_dir / "client_summary.xlsx", index=False)
+    except ImportError:
+        pass
     (output_dir / "email_previews.txt").write_text(
         "\n\n".join(
             f"To: {row.client_email}\nSubject: Payment follow-up | Client Ref: {row.client_ref}\n"

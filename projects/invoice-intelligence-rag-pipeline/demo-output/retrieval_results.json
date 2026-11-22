@@ -1,0 +1,49 @@
+{
+  "query": "payment terms",
+  "results": [
+    {
+      "source": "invoice_001.txt",
+      "score": 2.0,
+      "fields": {
+        "invoice_number": {
+          "value": "DEMO-001",
+          "evidence": "Invoice Number: DEMO-001"
+        },
+        "vendor": {
+          "value": "Northwind Demo Supplies",
+          "evidence": "Vendor: Northwind Demo Supplies"
+        },
+        "invoice_date": {
+          "value": "2026-01-12",
+          "evidence": "Invoice Date: 2026-01-12"
+        },
+        "total": {
+          "value": "1,250.50 USD",
+          "evidence": "Total: 1,250.50 USD"
+        }
+      }
+    },
+    {
+      "source": "invoice_002.txt",
+      "score": 2.0,
+      "fields": {
+        "invoice_number": {
+          "value": "DEMO-002",
+          "evidence": "Invoice No: DEMO-002"
+        },
+        "vendor": {
+          "value": "Fabrikam Sample Services",
+          "evidence": "Vendor: Fabrikam Sample Services"
+        },
+        "invoice_date": {
+          "value": "2026-02-03",
+          "evidence": "Invoice Date: 2026-02-03"
+        },
+        "total": {
+          "value": "3,780.00 USD",
+          "evidence": "Total: 3,780.00 USD"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+To: ap@example.org
+Subject: Payment follow-up | Client Ref: CL-1002
+Hello Contoso Sample Pvt Ltd,
+Our demo worklist shows 1 eligible invoice(s) totalling 275,000.00. Invoice references: INV-101.
+Please review this draft against the source system before sending.
+
+To: finance@example.com
+Subject: Payment follow-up | Client Ref: CL-1001
+Hello Northwind Demo Ltd,
+Our demo worklist shows 1 eligible invoice(s) totalling 185,000.00. Invoice references: INV-001.
+Please review this draft against the source system before sending.

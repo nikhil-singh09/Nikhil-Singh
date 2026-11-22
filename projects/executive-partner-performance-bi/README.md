@@ -12,6 +12,10 @@ A small, reproducible example of turning monthly operating records into partner-
 - Month-level totals and partner ranking
 
 ## Run
-python src/summarize_kpis.py --input data/monthly_metrics.csv --output outputs
+python src/summarize_kpis.py --input data/monthly_metrics.csv --output demo-output
 
 The script writes a partner summary CSV and a concise JSON snapshot. Replace the illustrative metric definitions with documented business rules before using real data.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: partner_kpis.csv, snapshot.json. Run commands from this project folder to regenerate the artifacts.

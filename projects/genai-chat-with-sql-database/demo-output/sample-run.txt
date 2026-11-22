@@ -1,0 +1,13 @@
+Ask: total sales by region
+West: 1775.00
+North: 1700.00
+South: 890.00
+
+Ask: top customers
+Fabrikam Training: 1775.00
+Northwind Demo: 1700.00
+Contoso Sample: 890.00
+
+Ask: how many orders
+Sample order count: 4
+

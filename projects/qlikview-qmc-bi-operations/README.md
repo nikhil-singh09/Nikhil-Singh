@@ -7,7 +7,11 @@ A lightweight simulation of BI reload monitoring from a CSV export. It summarize
 ![Workflow diagram](docs/workflow.svg)
 
 ## Run
-python src/summarize_reload_health.py --input data/task_runs.csv --output outputs
+python src/summarize_reload_health.py --input data/task_runs.csv --output demo-output
 
 ## Metrics
 Per app: run count, success count, failure count, success rate, and median runtime. Inspect individual failures in the source export before taking action.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: reload_health.json. Run commands from this project folder to regenerate the artifacts.

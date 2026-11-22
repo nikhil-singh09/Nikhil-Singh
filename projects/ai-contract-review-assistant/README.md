@@ -19,13 +19,12 @@ A privacy-conscious prototype for extracting review fields from plain-text contr
 python -m venv .venv
 # Windows: .venv\\Scripts\\activate
 # macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-python src/review_contracts.py --input data/contracts --output outputs
+python src/review_contracts.py --input data/contracts --output demo-output
 ```
 
 ## Review principles
 
-- Every extracted value includes evidence text and a confidence label.
+- Every extracted value includes evidence text and a clear extraction status.
 - Missing or ambiguous clauses are marked `Not found`; the script does not invent contract terms.
 - A qualified reviewer must verify all findings against the complete agreement.
 - Do not place confidential, personal or client contracts in this public repository.
@@ -37,3 +36,7 @@ A future version could add document parsing, chunking, embeddings, a vector inde
 ## Sample data
 
 The included contract is fictional and intentionally short. It is for demonstrating extraction only.
+
+## Bundled demo output
+
+A sample run using the included fictional inputs is saved in `demo-output/`: contract_reviews.json, review_register.csv. Run commands from this project folder to regenerate the artifacts.

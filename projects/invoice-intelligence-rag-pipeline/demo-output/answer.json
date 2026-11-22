@@ -1,0 +1,15 @@
+{
+  "query": "payment terms",
+  "provider": "offline",
+  "answer": "[1] data/invoice_001.txt\nInvoice Number: DEMO-001\nVendor: Northwind Demo Supplies\nInvoice Date: 2026-01-12\nPayment Terms: Net 30\nTotal: 1,250.50 USD\nDescription: Office equipment for a fictional training exercise.\n\n[2] data/invoice_002.txt\nInvoice No: DEMO-002\nVendor: Fabrikam Sample Services\nInvoice Date: 2026-02-03\nPayment Terms: Due upon receipt\nTotal: 3,780.00 USD\nDescription: Synthetic consulting services used for a portfolio example.",
+  "sources": [
+    {
+      "source": "data/invoice_001.txt",
+      "score": 1.0
+    },
+    {
+      "source": "data/invoice_002.txt",
+      "score": 1.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "app_name": "Finance KPIs",
+    "runs": 3,
+    "successes": 2,
+    "failures": 1,
+    "success_rate_pct": 66.7,
+    "median_duration_seconds": 115.0
+  },
+  {
+    "app_name": "Partner Insights",
+    "runs": 2,
+    "successes": 2,
+    "failures": 0,
+    "success_rate_pct": 100.0,
+    "median_duration_seconds": 182.0
+  }
+]
