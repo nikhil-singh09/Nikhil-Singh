@@ -1,0 +1,13 @@
+FICTIONAL SAMPLE SERVICES AGREEMENT
+
+This agreement is entered into by Northwind Demo Ltd (Customer) and Fabrikam Training Co (Provider).
+
+Effective Date: 1 April 2026.
+
+Confidentiality: Each party must protect the other party's confidential information and use it only to perform this agreement.
+
+Termination: Either party may terminate this agreement by giving thirty (30) days written notice.
+
+Limitation of Liability: Each party's aggregate liability will not exceed the fees paid or payable under this agreement during the twelve months before the event giving rise to the claim.
+
+Governing Law: This agreement is governed by the laws of India.
