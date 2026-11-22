@@ -1,0 +1,6 @@
+client_ref,invoice_no,invoice_date,amount
+CL-11,INV-11,2026-01-04,1200.00
+CL-12,INV-12,2026-01-05,875.50
+CL-11,INV-11,2026-01-04,1200.00
+CL-13,INV-13,2026-01-06,not-a-number
+,INV-14,2026-01-08,450.00

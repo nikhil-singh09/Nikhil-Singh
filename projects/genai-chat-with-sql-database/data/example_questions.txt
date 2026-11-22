@@ -1,0 +1,3 @@
+total sales by region
+top customers
+how many orders

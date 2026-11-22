@@ -52,15 +52,24 @@ I build data-driven solutions that connect **analytics, engineering, and applied
 - [Text-to-Speech / Voice Cloning](https://github.com/nikhil-singh09/Texttospeech) — experimentation with the Tortoise TTS framework.
 - [Document Chatbot](https://github.com/nikhil-singh09/Chatbot) — a conversational interface for document-based queries.
 
-## New portfolio builds
+## Portfolio projects
 
-These standalone demonstrations translate business problems from my Data & AI portfolio into reproducible, synthetic-data projects:
+These independent demonstrations map to case studies on my Data & AI portfolio. All use synthetic data and are documented with runnable code, sample inputs and workflow diagrams.
 
-- [Debtor Collection Copilot](projects/debtor-collection-copilot/) — invoice validation, eligibility filtering, deduplication, client-wise consolidation and email-draft generation. No messages are sent.
-- [AI Contract Review Assistant](projects/ai-contract-review-assistant/) — evidence-linked extraction of selected contract fields from fictional text agreements. The current implementation is rule-based; LLM/RAG integration is a documented future extension.
-- [Python Excel Automation](projects/python-excel-automation/) — consolidate worksheet data, validate amounts and generate a client-level Excel summary.
+- [Vendor Contract Intelligence](projects/ai-contract-review-assistant/) — evidence-linked extraction from fictional contract text.
+- [Debtor Collection Intelligence Copilot](projects/debtor-collection-copilot/) — validated, prioritised invoice worklists and review-only drafts.
+- [Partner Communication Automation](projects/partner-communication-automation/) — client-wise draft generation with human review; no email is sent.
+- [Executive & Partner Performance BI](projects/executive-partner-performance-bi/) — synthetic KPI aggregation for reporting.
+- [Cloud Data Engineering & ETL Modernisation](projects/cloud-data-engineering-etl-modernisation/) — local batch curation, quality checks and summary outputs.
+- [Invoice Intelligence & Retrieval](projects/invoice-intelligence-rag-pipeline/) — offline lexical retrieval with evidence-linked fields; no LLM or cloud service.
+- [ETL Optimisation & Data Quality](projects/etl-optimisation-data-quality/) — schema checks, duplicate handling and rejected-row reporting.
+- [QlikView & QMC BI Operations](projects/qlikview-qmc-bi-operations/) — synthetic reload-health reporting; no Qlik connection.
+- [Applied ML Anomaly & Forecast Baseline](projects/applied-ml-anomaly-forecasting/) — explainable z-score flags and a linear trend baseline.
+- [Python & Excel Process Automation](projects/python-excel-automation/) — workbook consolidation, validation and client-level summaries.
+- [GenAI Chat with SQL Database](projects/genai-chat-with-sql-database/) — fixed, read-only query routing over in-memory sample data; no LLM-generated SQL.
+- [NLP Chatbot & Recommendation Support](projects/nlp-chatbot-recommendation-support/) — offline lexical matching over fictional FAQ and product data.
 
-All three are independent portfolio demonstrations. They contain no employer source code, confidential data or production credentials.
+The demos are independent portfolio recreations, not employer implementations. They contain no confidential data, production credentials or external system connections. AI/RAG titles describe the portfolio case study; README files clarify which local baselines are implemented.
 
 ## What I'm exploring
 

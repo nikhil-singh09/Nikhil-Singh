@@ -1,0 +1,6 @@
+Invoice No: DEMO-002
+Vendor: Fabrikam Sample Services
+Invoice Date: 2026-02-03
+Payment Terms: Due upon receipt
+Total: 3,780.00 USD
+Description: Synthetic consulting services used for a portfolio example.

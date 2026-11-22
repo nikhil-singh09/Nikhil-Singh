@@ -1,0 +1,6 @@
+app_name,task_name,started_at,status,duration_seconds
+Finance KPIs,Daily reload,2026-11-18T04:00:00Z,success,115
+Finance KPIs,Daily reload,2026-11-19T04:00:00Z,success,121
+Finance KPIs,Daily reload,2026-11-20T04:00:00Z,failure,22
+Partner Insights,Weekly refresh,2026-11-17T03:00:00Z,success,188
+Partner Insights,Weekly refresh,2026-11-20T03:00:00Z,success,176

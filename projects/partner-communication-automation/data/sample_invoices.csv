@@ -1,0 +1,5 @@
+client_ref,client_name,invoice_no,days_overdue,outstanding_amount,client_email
+CL-2001,Northwind Demo Ltd,INV-201,120,185000,finance@northwind.example
+CL-2001,Northwind Demo Ltd,INV-202,101,115000,finance@northwind.example
+CL-2002,Contoso Sample Pvt Ltd,INV-301,135,242000,ap@contoso.example
+CL-2003,Fabrikam Training Co,INV-401,35,24000,accounts@fabrikam.example

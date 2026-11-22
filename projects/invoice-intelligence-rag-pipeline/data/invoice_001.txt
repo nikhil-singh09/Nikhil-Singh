@@ -1,0 +1,6 @@
+Invoice Number: DEMO-001
+Vendor: Northwind Demo Supplies
+Invoice Date: 2026-01-12
+Payment Terms: Net 30
+Total: 1,250.50 USD
+Description: Office equipment for a fictional training exercise.
