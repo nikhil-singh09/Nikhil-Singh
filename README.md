@@ -1,5 +1,7 @@
 <div align="center">
 
+![Nikhil Singh — Data, Engineering and Intelligence](assets/profile-banner.svg)
+
 # Hi, I'm Nikhil Singh 👋
 
 ### Data & AI Professional | Generative AI | Analytics | Automation
@@ -7,7 +9,6 @@
 I build data-driven solutions that connect **analytics, engineering, and applied AI**—from transforming data pipelines to developing intelligent assistants and machine-learning applications.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-0A66C2?style=for-the-badge&logo=netlify&logoColor=white)](https://nikhil-singh09-portfolio.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github)](https://github.com/nikhil-singh09)
 
 </div>
@@ -35,11 +36,15 @@ I build data-driven solutions that connect **analytics, engineering, and applied
 ## Selected work
 
 ### Applied AI & automation
+
+![Enterprise AI workflow](assets/enterprise-ai-workflow.svg)
 - **Debtor Collection Copilot – workflow concept:** An assistant-oriented approach to outstanding-invoice analysis, client follow-ups, prioritization, and response handling using structured business data.
 - **AI-assisted contract review – workflow concept:** A document-analysis approach to extracting and organizing key information from vendor contracts for review.
 - These are professional-work summaries only. No employer data, confidential documents, credentials, or proprietary implementation are published here.
 
 ### Public GitHub projects
+
+![Machine learning workflow](assets/data-ml-workflow.svg)
 - [Customer Churn Prediction](https://github.com/nikhil-singh09/Customer-churn-Prediction) — ANN-based customer churn modelling.
 - [Bike Sharing Demand Prediction](https://github.com/nikhil-singh09/Bike-Sharing-Demand-Price-Prediction) — machine-learning capstone focused on bike-sharing demand.
 - [Airbnb Data Analysis](https://github.com/nikhil-singh09/Air-bnb-data-analysis) — exploratory analysis of Airbnb booking data.
