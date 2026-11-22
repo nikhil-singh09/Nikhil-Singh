@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101b3f"/><stop offset="1" stop-color="#145b75"/></linearGradient><pattern id="p" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.5" fill="#8de4e8" opacity=".28"/></pattern></defs>
+<rect width="1200" height="320" rx="28" fill="url(#g)"/><rect width="1200" height="320" rx="28" fill="url(#p)"/>
+<g fill="none" stroke="#61d6dc" stroke-width="2" opacity=".55"><path d="M760 45h100v55h90v-35h110"/><path d="M760 150h80v-45h110v75h110"/><path d="M800 250h95v-55h90v45h100"/><circle cx="760" cy="45" r="6" fill="#61d6dc"/><circle cx="1055" cy="65" r="6" fill="#61d6dc"/><circle cx="950" cy="180" r="6" fill="#61d6dc"/><circle cx="1085" cy="240" r="6" fill="#61d6dc"/></g>
+<g font-family="Arial,Helvetica,sans-serif" fill="#fff"><text x="72" y="112" font-size="25" letter-spacing="5" fill="#91e5e8">DATA • ENGINEERING • INTELLIGENCE</text><text x="68" y="190" font-size="66" font-weight="700">NIKHIL SINGH</text><text x="72" y="240" font-size="27" fill="#d2eaf1">Turning data into decisions and AI into useful workflows</text></g>
+<g fill="#7ee1e4"><circle cx="1010" cy="118" r="17"/><circle cx="1120" cy="152" r="10"/><circle cx="915" cy="230" r="12"/></g></svg>
