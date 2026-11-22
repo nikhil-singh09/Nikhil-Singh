@@ -19,12 +19,12 @@ python -m venv .venv
 # Windows: .venv\\Scripts\\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
-python src/consolidate_workbooks.py --input data/sample_invoices.xlsx --output outputs/consolidated_report.xlsx
+python src/consolidate_workbooks.py --input data/sample_invoices.csv --output outputs/consolidated_report.xlsx
 ```
 
 ## Input schema
 
-Each worksheet should contain `client_name`, `invoice_no` and `outstanding_amount`. Extra columns are retained in the detail sheet.
+Each worksheet (or the input CSV) should contain `client_name`, `invoice_no` and `outstanding_amount`. Extra columns are retained in the detail sheet.
 
 ## Output
 
