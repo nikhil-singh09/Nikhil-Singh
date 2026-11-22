@@ -52,6 +52,16 @@ I build data-driven solutions that connect **analytics, engineering, and applied
 - [Text-to-Speech / Voice Cloning](https://github.com/nikhil-singh09/Texttospeech) — experimentation with the Tortoise TTS framework.
 - [Document Chatbot](https://github.com/nikhil-singh09/Chatbot) — a conversational interface for document-based queries.
 
+## New portfolio builds
+
+These standalone demonstrations translate business problems from my Data & AI portfolio into reproducible, synthetic-data projects:
+
+- [Debtor Collection Copilot](projects/debtor-collection-copilot/) — invoice validation, eligibility filtering, deduplication, client-wise consolidation and email-draft generation. No messages are sent.
+- [AI Contract Review Assistant](projects/ai-contract-review-assistant/) — evidence-linked extraction of selected contract fields from fictional text agreements. The current implementation is rule-based; LLM/RAG integration is a documented future extension.
+- [Python Excel Automation](projects/python-excel-automation/) — consolidate worksheet data, validate amounts and generate a client-level Excel summary.
+
+All three are independent portfolio demonstrations. They contain no employer source code, confidential data or production credentials.
+
 ## What I'm exploring
 
 - Retrieval-Augmented Generation (RAG) and enterprise knowledge assistants
