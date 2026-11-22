@@ -37,7 +37,7 @@ def rank_documents(query: str, directory: Path) -> list[dict]:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--query", required=True)
-    parser.add_argument("--input", type=Path, default=Path("data/invoices"))
+    parser.add_argument("--input", type=Path, default=Path("data"))
     parser.add_argument("--output", type=Path, default=Path("outputs"))
     args = parser.parse_args()
     results = rank_documents(args.query, args.input)

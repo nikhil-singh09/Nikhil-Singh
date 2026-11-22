@@ -7,7 +7,7 @@ A transparent, offline prototype for finding relevant fictional invoice text and
 ![Workflow diagram](docs/workflow.svg)
 
 ## Run
-python src/search_invoices.py --query "payment terms" --input data/invoices --output outputs
+python src/search_invoices.py --query "payment terms" --input data --output outputs
 
 ## What it demonstrates
 - Token-based ranking of local text documents

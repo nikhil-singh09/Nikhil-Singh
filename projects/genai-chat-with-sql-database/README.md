@@ -6,10 +6,11 @@ A small conversational analytics prototype over an in-memory SQLite database wit
 
 ![Workflow diagram](docs/workflow.svg)
 
-## Run
-python src/chat_sql.py
+## Run the sample questions
 
-Try: "total sales by region", "top customers", or "how many orders".
+    python src/chat_sql.py --questions-file data/example_questions.txt
+
+For interactive mode, run python src/chat_sql.py without the option.
 
 ## Safety
 - Creates an in-memory database from bundled synthetic rows.
